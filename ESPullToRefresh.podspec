@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
     s.source            = {:git => 'https://github.com/susuyan/pull-to-refresh.git', :tag => s.version}
     s.source_files      = ['Sources/**/*.{swift}']
     s.resource_bundles  = { 'ESPullToRefresh' => ['Sources/Animator/*.png' ,
-        'Sources/Localizable/*.lproj/*']}
+        'Sources/Localizable.strings']}
     s.requires_arc      = true
 end
